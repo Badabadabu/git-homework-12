@@ -1,2 +1,16 @@
-# git-homework-12
-"Git homework 12 - branches and merge"
+# Git Homework 12
+
+Это домашнее задание по работе с Git ветками и слиянием.
+
+## Изучаемые команды:
+- git clone
+- git checkout -b
+- git merge
+- git commit --amend
+- history
+
+## Автор
+olena mierkulova
+
+## Дата
+$(date)
