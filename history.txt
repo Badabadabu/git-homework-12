@@ -1,0 +1,33 @@
+  506  git clone https://github.com/Badabadabu/git-homework-12.git
+  507  cd git-homework-12
+  508  ls -la
+  509  git status
+  510  git remote -v
+  511  git checkout -b feature
+  512  git branch
+  513  nano README.md
+  514  nano .gitignore
+  515  nano README.md
+  516  git status
+  517  git add README.md .gitignore
+  518  git diff README.md
+  519  git diff .gitignore
+  520  git status
+  521  git commit -m "Update README.md and .gitignore with homework content"
+  522  git log --oneline
+  523  git push -u origin feature
+  524  git branch -a
+  525  git branch
+  526  git commit --amend -m "Update README.md and .gitignore with homework content amend"
+  527  git log --oneline
+  528  git push --force origin feature
+  529  git checkout main
+  530  git branch
+  531  git status
+  532  git pull origin main
+  533  git merge feature
+  534  git log --oneline --graph
+  535  cat README.md
+  536  cat .gitignore
+  537  git push origin main
+  538  history > history.txt
